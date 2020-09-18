@@ -1,0 +1,8 @@
+/*=media queries
+*********************/
+
+@media (max-width: 400px) {
+  .main-header .container {
+    display: block;
+  }
+}
