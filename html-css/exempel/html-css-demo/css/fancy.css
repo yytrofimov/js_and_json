@@ -31,6 +31,9 @@ textarea:focus {
   text-align: center;
   color: #efefef;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+ /* background: -webkit-linear-gradient(#efefef, rgb(223, 223, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 .shadowed-header span {
  /* padding: 0.3em 0.4em;
@@ -56,7 +59,10 @@ textarea:focus {
 section.intro { 
     background-image:  linear-gradient(0deg, #3fa9f5 40%,  #23699b);
 }
-
+.card .ico {
+    background-image:  var(--gradient-green);
+    border-radius: 50%;
+}
 /*=Separator 
 ***********************/
 
@@ -80,7 +86,10 @@ section.intro {
 }
 
 /* SHAKE */
-
+h1 img#logo {
+    -webkit-filter: drop-shadow(5px 5px 5px  rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(5px 5px 5px  rgba(0, 0, 0, 0.3));
+}
 h1 img#logo:hover {
     animation: shake 0.82s 1s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);

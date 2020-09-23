@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 - CSS3 DEMO</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
    </head>
 <body>
     <header class="main-header">
         <div class="container">
             
-        <nav>
+        <nav class="nav-l">
             <ul>
                 <li class="active"><a href="#">Start</a></li>
                 <li class="dropdown"><a href="#">Produkter</a>
@@ -24,6 +25,25 @@
                 <li><a href="#footer">footer</a></li>
             </ul>
         </nav>
+ <!--      
+<nav role="navigation" class="nav-m">
+    <div id="menuToggle">
+        
+      <input type="checkbox" />
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
+    </div>
+  </nav>
+  --> 
         <h1 class="mh-logo">
             <img src="img/html5-css3-logo.png" alt="html5 css3" id="logo">
             </h1>
@@ -55,20 +75,26 @@
     </section>
     <section class="cards">
         <div>
-            <article class="card">
-                <i class="fas fa-code"></i>
+            <article class="card" data-aos="fade-up-right" data-aos-duration="500">
+                <span class="ico">
+                    <img src="img/code-tag_trnsp.png" alt="code icon">
+                </span>
                 <h3>HTML</h3>
                 <p>Med HTML bygger vi strukter och semantiken på en sida</p>
                 <button>Läs mer</button>
             </article>
-            <article class="card">
-                <i class="fas fa-code-branch"></i>
+            <article class="card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
+                <span class="ico">
+                    <img src="img/code-tag_trnsp.png" alt="code icon">
+                </span>
                 <h3>CSS</h3>
                 <p>Med CSS stajlar vi och bygger layouten. Och animerar!</p>
                 <button>Läs mer..</button>
             </article>
-            <article class="card">
-                <i class="fas fa-terminal"></i>
+            <article class="card" data-aos="fade-up-left" data-aos-delay="1000" data-aos-duration="500">
+                <span class="ico">
+                    <img src="img/code-tag_trnsp.png" alt="code icon">
+                </span>
                 <h3>Javascript</h3>
                 <p>Med Javascript styr vi händelser på sidan </p>
                 <button>Läs mer</button>
@@ -78,5 +104,9 @@
     <footer id="footer">
         <p>sidfot &copy; 2020 <a href="#"> tillbaka upp</a></p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
