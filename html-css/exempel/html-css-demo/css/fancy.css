@@ -91,9 +91,10 @@ h1 img#logo {
     filter: drop-shadow(5px 5px 5px  rgba(0, 0, 0, 0.3));
 }
 h1 img#logo:hover {
-    animation: shake 0.82s 1s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shake 0.82s .5s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     perspective: 1000px;
+    cursor: help;
   }
   
   @keyframes shake {
