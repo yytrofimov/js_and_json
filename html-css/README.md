@@ -17,20 +17,20 @@ I denn kurs går vi igenom grunder i HTML och CSS.
 ## Strukturera sida
 
 ### BODY
- - **main** behållare för huvudinnehåll
- - **nav** innehåller navigationen
- - **aside** Innehåll som är relaterat till sidans huvudinnehåll, oftast sidospalt (sidebar)
- - **header** Innehåller rubrik för sidan
- - **footer** Kan användas på bottnet av sidan eller en section.
- - **article** Innehåll, t.ex. blogginlägg, nyhet, artikel
- - **section** Används oftast att del upp sektioner i en artikel
+ - **main** - behållare för huvudinnehåll
+ - **nav**  - innehåller navigationen
+ - **aside**  - Innehåll som är relaterat till sidans huvudinnehåll, oftast sidospalt (sidebar)
+ - **header**  - Innehåller rubrik för sidan
+ - **footer**  - Kan användas på bottnet av sidan eller en section.
+ - **article**  - Innehåll, t.ex. blogginlägg, nyhet, artikel
+ - **section**  - Används oftast att del upp sektioner i en artikel
 
 ### HEAD
-   - <title></title> Denna text syns i i browser-fliken. En bra titel hjälper även sökmotorer att indexera sidan. Och också förstås underlättar det användarna se vad de för sidor öppet i browsern.
-   - <link> Denna är inget som a-länkar. Däremot visar länkar den sidan till externa filer, oftast då CSS-filer.. Detta är en ensamstående tag.
-   - <meta> Används oftast för info om sidan för browsern och ibland sökmotorer. Detta är en ensamstående tag
-   - <script></script> Används att lägga in JavaScript
-   - <style></style> Används för att lägga in CSS
+   - **title** - Denna text syns i i browser-fliken. En bra titel hjälper även sökmotorer att indexera sidan. Och också förstås underlättar det användarna se vad de för sidor öppet i browsern.
+   - **link** - Denna är inget som a-länkar. Däremot visar länkar den sidan till externa filer, oftast då CSS-filer.. Detta är en ensamstående tag.
+   - **meta** - Används oftast för info om sidan för browsern och ibland sökmotorer. Detta är en ensamstående tag
+   - **script** -  Används att lägga in JavaScript
+   - **style** - Används för att lägga in CSS
   
 ## CSS
  1. Vad är CSS
