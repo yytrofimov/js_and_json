@@ -17,13 +17,13 @@ I denn kurs går vi igenom grunder i HTML och CSS.
 ## Strukturera sida
 
 ### BODY
- - "<main></main>" behållare för huvudinnehåll
- - "<nav></nav>" innehåller navigationen
- - "<aside></aside>" Innehåll som är relaterat till sidans huvudinnehåll, oftast sidospalt (sidebar)
- - "<header></header>" Innehåller rubrik för sidan
- - "<footer></footer>" Kan användas på bottnet av sidan eller en section.
- - "<article></article>" Innehåll, t.ex. blogginlägg, nyhet, artikel
- - "<section></section>" Används oftast att del upp sektioner i en artikel
+ - **main** behållare för huvudinnehåll
+ - **nav** innehåller navigationen
+ - **aside** Innehåll som är relaterat till sidans huvudinnehåll, oftast sidospalt (sidebar)
+ - **header** Innehåller rubrik för sidan
+ - **footer** Kan användas på bottnet av sidan eller en section.
+ - **article** Innehåll, t.ex. blogginlägg, nyhet, artikel
+ - **section** Används oftast att del upp sektioner i en artikel
 
 ### HEAD
    - <title></title> Denna text syns i i browser-fliken. En bra titel hjälper även sökmotorer att indexera sidan. Och också förstås underlättar det användarna se vad de för sidor öppet i browsern.
