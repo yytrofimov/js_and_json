@@ -4,7 +4,7 @@ I denn kurs går vi igenom grunder i HTML och CSS.
 
 ## Innehåll
 
-## HTML
+### HTML
  1. Vad är HTML (och webbläsare)
  2. HTML sida, struktur och semantik, HTML vs CSS, tag(element)
  3. Text: p, i, strong, em
@@ -16,7 +16,7 @@ I denn kurs går vi igenom grunder i HTML och CSS.
 
 ## Strukturera sida
 
-### BODY
+#### BODY-taggar (element)
  - **main** - behållare för huvudinnehåll
  - **nav**  - innehåller navigationen
  - **aside**  - Innehåll som är relaterat till sidans huvudinnehåll, oftast sidospalt (sidebar)
@@ -25,7 +25,7 @@ I denn kurs går vi igenom grunder i HTML och CSS.
  - **article**  - Innehåll, t.ex. blogginlägg, nyhet, artikel
  - **section**  - Används oftast att del upp sektioner i en artikel
 
-### HEAD
+#### HEAD-taggar (element)
    - **title** - Denna text syns i i browser-fliken. En bra titel hjälper även sökmotorer att indexera sidan. Och också förstås underlättar det användarna se vad de för sidor öppet i browsern.
    - **link** - Denna är inget som a-länkar. Däremot visar länkar den sidan till externa filer, oftast då CSS-filer.. Detta är en ensamstående tag.
    - **meta** - Används oftast för info om sidan för browsern och ibland sökmotorer. Detta är en ensamstående tag
