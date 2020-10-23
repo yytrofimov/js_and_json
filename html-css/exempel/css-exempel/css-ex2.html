@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS exempel 2</title>
+    <!-- CSS-filer här -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="entry-title">VS Code</h1>
+      <figure class="featured-media">
+        <div class="featured-media-inner section-inner">
+          <img
+            width="1200"
+            height="505"
+            src="https://wallin.fi/webdev/wp-content/uploads/2020/04/vs-code-site-1200x505.png"
+            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+            alt="Vs code"/>
+        </div>
+        <!-- .featured-media-inner -->
+      </figure>
+      <!-- .featured-media -->
+      <div class="post-inner thin">
+        <div class="entry-content">
+          <p>
+            Som med allt hantverk, gäller det i även i programmering att ha
+            verktygen i skick. I programmering är grundverktyget en fungerande
+            kodeditor. Genom tiderna har det funnits stolta kodare som jobbar
+            med notepad eller unix-baserade vi, vilka faktiskt är
+            <span style="text-decoration: underline">text</span>editerare. Det
+            är då inte helt ovanligt att behöva t.ex. Vi:s efterträdare vim
+            eller liknande även idag, men före det skall vi mjuklanda med modern
+            och fungerande kodeditor VS Code.
+          </p>
+
+          <blockquote class="wp-block-quote">
+            <p>
+              Jag talar om kodeditor, men rätta termen är IDE (Integrated
+              Development Environment). Vilket i praktiken betyder att det inte
+              endast är en editor utan en utvecklingsmiljö för att hantera hela
+              projekt och alla delar i det.
+            </p>
+          </blockquote>
+
+          <p>
+            Det finns hel del alternativ för VS Code, på vilka man stöter på och
+            kan vara värt att kolla upp: Atom, Brackets, sublime text,
+            notepad++, vilka alla är gratis. Av komerciella kan ännu nämnas
+            webstorm, den fås även gratis via GitHub education.
+          </p>
+
+          <p>
+            Adobe Dreamweaver stöter man också på, men jag anser att den är
+            ganska uppsvälld.
+          </p>
+
+          <h2>Visual studio Code</h2>
+
+          <p>
+            VS Code är ett gratis verktyg utvecklat av Microsoft, är sk.
+            &#8221;cross-plattform&#8221; så det kan användas på bl.a. windows,
+            linux och MacOS. Dens inbyggda funktioner som integrerad Git,
+            Terminal, pålitlig kod-autocomplete mm. samt att den är
+            &#8221;lättviktad&#8221; och snabb har gjort att den är för
+            tillfället (våren 2020) populäraste editorn.
+          </p>
+
+          <h3>Installation</h3>
+
+          <p>
+            VS code kan laddas ner på
+            <a href="https://code.visualstudio.com/"
+              >https://code.visualstudio.com/</a
+            >
+          </p>
+
+          <figure class="wp-block-image size-large">
+            <img
+              loading="lazy"
+              width="700"
+              height="294"
+              src="https://wallin.fi/webdev/wp-content/uploads/2020/04/vs-code-site-700x294.png"
+              alt="" />
+          </figure>
+
+          <h3>Kom igång med VS code</h3>
+
+          <p>En snabb blick på användargränssnittet</p>
+
+          <h3>Tillägsdelar (extensions)</h3>
+
+          <p>
+            Nyckeln till smidig utveckling är att ha de tillägsdelar som behövs.
+            Tillägsdelarna är små hjälpprogram som oftast gör utvecklingen
+            smidigare. Eller t.om. roligare. Listar några tillägg för HTML, CSS
+            och Javascript utveckling:
+          </p>
+
+          <p>
+            Först några ord om VS Codes inbyggda kodhjälpare (<a
+              href="https://emmet.io/"
+              >Emmet</a
+            >). Då du börjar skriva ett HMTL-elementnamn ger emmet
+            förslag/lista. T.ex. om du vill göra en &lt;h1&gt;-tag skriver du h1
+            och det kommer förslag med enter skrivs elementet färdigt ut åt dig.
+          </p>
+
+          <figure class="wp-block-image size-large is-resized">
+            <img
+              loading="lazy"
+              src="https://wallin.fi/webdev/wp-content/uploads/2020/04/emmet-html.png"
+              alt="" />
+            <figcaption>
+              Då du skapar ett nytt html-dokument får du behändigt
+              &#8221;grund-koden&#8221; då du väljer html:5
+            </figcaption>
+          </figure>
+
+          <p>
+            Emmet är ett verktyg du kan använda då du blir vanare med HTML och
+            CSS. Du kan rakt skriva &#8221;dix.box&#8221; vilket resulterar med
+            &lt;div class=&#8221;box&#8221;&gt;&lt;/div&gt;.
+          </p>
+
+          <h4>Allmänt och nyttigt (och &#8221;nyttigt&#8221;)</h4>
+
+          <ul>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons"
+                >icons</a
+              >
+              Visar filtetypernas ikoner så man snabbt känner igen filtypen.
+            </li>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify"
+                >spotify</a
+              >
+              Lyssna på spotify medan jobbar
+            </li>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+                >live-server</a
+              >
+              Glöm refreshandet av browsern då du gör ändringar och låt
+              live-server göra det automatiskt då du sparar filer i ditt
+              projekt.
+            </li>
+          </ul>
+
+          <h4>HTML &amp; CSS</h4>
+
+          <ul>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+                >prettier</a
+              >
+              Snyggar upp din kod
+            </li>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=bierner.color-info"
+                >color info</a
+              >
+              visar färgen och färgkoder (hex, rgb, hsl, cmyk&#8230;)
+            </li>
+          </ul>
+
+          <h4>Javascript</h4>
+
+          <ul>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"
+                >eslint</a
+              >
+              Kollar att du skriver koden rätt. Mera om detta i
+              Javascript-grunderna
+            </li>
+            <li>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets"
+                >es6 snippets</a
+              >
+              Skriv enkelt enligt senaste standarden. Mer om det kommer på
+              Js-avdelningen
+            </li>
+          </ul>
+
+          <p>
+            Det finns hel del fler som man kan behöva, för olika
+            programmeringsspråk filer kommunikation osv. När du blir bekantare
+            med VS code och programmering över huvudtaget kommer du säkert på
+            egna favortitillägsdelar. Mer tilläggsdelar hittar du på
+            <a href="https://marketplace.visualstudio.com/"
+              >https://marketplace.visualstudio.com/</a
+            >
+          </p>
+        </div>
+        <!-- .entry-content -->
+      </div>
+      <!-- .post-inner -->
+    </div>
+  </body>
+</html>
