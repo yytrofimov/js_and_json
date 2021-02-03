@@ -23,6 +23,7 @@ Push ökar antalet värden
 myCars.push('Seat')
 console.log(myCars);
 
+//ändra teckensträng till array med split
 let carList = 'saab, pösö, Mersu'
 console.log(carList)
 carListArray = carList.split(', ')
