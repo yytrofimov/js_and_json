@@ -1,0 +1,27 @@
+{"records":[
+    {
+        "title": "Born to run",
+        "artist": "Bruce",
+        "publish-year": 1977,
+        "label": "",
+        "producer": "",
+        "genre": ""
+    },
+    {
+        "title": "",
+        "artist": "",
+        "publish-year": 0,
+        "label": "",
+        "producer": "",
+        "genre": ""
+    },
+    {
+        "title": "",
+        "artist": "",
+        "publish-year": 0,
+        "label": "",
+        "producer": "",
+        "genre": ""
+    }
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exmpel på records uppbyggnad-->
+<records>
+    <record>
+        <title>Born to run</title>
+        <artist>Bruce Springsteen</title>
+        <publish-year></publish-year>
+        <label></label>
+        <producer></producer>
+        <genre></genre>
+    </record>
+    <record>
+        <title></title>
+        <artist></title>
+        <publish-year></publish-year>
+        <label></label>
+        <producer></producer>
+        <genre></genre>
+    </record>
+    <record>
+        <title></title>
+        <artist></title>
+        <publish-year></publish-year>
+        <label></label>
+        <producer></producer>
+        <genre></genre>
+    </record>
+    <record>
+        <title></title>
+        <artist></title>
+        <publish-year></publish-year>
+        <label></label>
+        <producer></producer>
+        <genre></genre>
+    </record>
+</records>
