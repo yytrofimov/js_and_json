@@ -23,8 +23,9 @@ function writeToDom() {
     output.innerHTML = 'testar onclick!'
 }
 
-const btn2 = document.querySelector('.btn.b');
 
+const btn2 = document.querySelector('.btn.b');
+//kollar med addEventListener om nån tryckt på knappen
 btn2.addEventListener('click', event => {
     const output = document.querySelector('#output');
     output.innerHTML = 'text i DOM utan onclick attributet'
