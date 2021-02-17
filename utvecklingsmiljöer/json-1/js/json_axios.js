@@ -1,16 +1,3 @@
-function axiosGetJSON(pathToFile) {
-    let shortcuts = [];
-    axios.get(pathToFile).then((response) => {
-        for (i of response.data["shortcuts"]) {
-            shortcuts.push(i);
-            console.log("OUT: ",shortcuts.length)
-            console.log(i);
-        }
-    });
-    console.log("OUT_RESULT: ",shortcuts.length)
-    return shortcuts;
-}
-
 function createShortcutsTable(shortcuts, requiredData) {
     let shortcutsTable = document.createElement("table");
     let labelString = document.createElement("tr");
@@ -32,4 +19,16 @@ function createShortcutsTable(shortcuts, requiredData) {
     document.body.append(shortcutsTable);
 }
 
-axiosGetJSON('json/shortcuts.json')
+function axiosGetJSON(pathToFile,requiredData) {
+    let shortcuts = [];
+    axios.get(pathToFile).then((response) => {
+        for (i of response.data["shortcuts"]) {
+            shortcuts.push(i);
+        }
+        createShortcutsTable(shortcuts,requiredData)
+    });
+    return shortcuts;
+}
+
+
+axiosGetJSON('json/shortcuts.json',['name','url'])
